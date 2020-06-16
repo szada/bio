@@ -4,14 +4,14 @@ body {
   	text-align: left;
   	color: #585858;
   	margin: 0;
-  	font-weight: 700;
+  	font-weight: 400;
 }
 
 h1 {
     font-family: 'Mukta', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.2em;
     color: #e0b029;
 }
@@ -19,15 +19,15 @@ h1 {
 h2 {
     font-family: 'Rozha One', sans-serif;
     color: black;
-    font-size: 60px;
-    line-height: 93%;
+    font-size: 80px;
+    line-height: 90%;
     margin-top: -5px;
 }
 
 p{
   	font-family: 'Mukta', sans-serif;
-  	font-size: 18px;
-  	font-weight: 500;
+  	font-size: 20px;
+  	font-weight: 400;
   	line-height: 170%;
     color: #666;
     margin-bottom: 20px;
@@ -60,13 +60,14 @@ a:active {
 hr.solid {
   border-top: 2px solid #f2f2f2;
   margin-bottom: 40px;
+  margin-top: -20px;
 }
 
 img{
     position: absolute;
     width: 346px;
     height: 635px;
-    left: 480px;
+    left: 450px;
     top: 0px;
 }
 
@@ -74,17 +75,17 @@ img{
     width: 350px;
     position: fixed;
     top: 50%;
-    left: 35%;
-    margin-top: -300px;
-    margin-left: -250px;
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -400px;
 }
 
 .centered .small {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 200%;
   color: #999;
-  margin-bottom: 40px; 
+  margin-bottom: 60px; 
 }
 
 .topRibbon {
@@ -99,9 +100,9 @@ img{
 
 .goldbox {
   position: absolute;
-  width: 385px;
-  height: 467px;
-  left: 540px;
+  width: 346px;
+  height: 400px;
+  left: 490px;
   top: 120px;
   background: #e0b029;
 }
