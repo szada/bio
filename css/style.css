@@ -1,72 +1,107 @@
 body {
-	background-color: #eee;
-	font-family: 'Archivo', sans-serif;
-	text-align: center;
-	color: #777;
-	margin: 0;
-	font-weight: 700;
+  	background-color: white;
+  	font-family: 'Mukta', sans-serif;
+  	text-align: left;
+  	color: #585858;
+  	margin: 0;
+  	font-weight: 700;
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: #777;
-    letter-spacing: 6px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    color: #e0b029;
 }
 
 h2 {
+    font-family: 'Rozha One', sans-serif;
     color: black;
-    font-size: 48px;
+    font-size: 60px;
+    line-height: 93%;
+    margin-top: -5px;
 }
 
 p{
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 160%;
+  	font-family: 'Mukta', sans-serif;
+  	font-size: 18px;
+  	font-weight: 500;
+  	line-height: 170%;
+    color: #666;
+    margin-bottom: 20px;
 }
 
 h2:hover {
-	color: #e0b029;
+	 color: #e0b029;
 }
 
 a:link {
-  	text-decoration: none;
-	color: #e0b029;
+    text-decoration: none;
+	 color: #e0b029;
 
 }
 
 a:visited {
-  	text-decoration: none;
-  	color: #e0b029;
+	 text-decoration: none;
+	 color: #e0b029;
 
 }
 
 a:hover {
-  	text-decoration: underline;
+	 text-decoration: underline;
 }
 
 a:active {
-  	text-decoration: underline;
+	 text-decoration: underline;
+}
+
+hr.solid {
+  border-top: 2px solid #f2f2f2;
+  margin-bottom: 40px;
+}
+
+img{
+    position: absolute;
+    width: 385px;
+    height: 763px;
+    left: 480px;
+    top: 0px;
 }
 
 .centered {
-    width: 500px;
+    width: 350px;
     position: fixed;
     top: 50%;
-    left: 50%;
-    margin-top: -150px;
+    left: 30%;
+    margin-top: -300px;
     margin-left: -250px;
 }
 
-.bottomRibbon {
-	height: 60px;
-	width: 100%;
-	overflow: hidden;
-  	position: fixed;
-  	bottom: 0;
-	background-color: #e0b029;
-	color: white;
+.centered .small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 200%;
+  color: #999;
+  margin-bottom: 40px; 
+}
+
+.topRibbon {
+  	height: 10px;
+  	width: 100%;
+  	overflow: hidden;
+    	position: fixed;
+    	top: 0;
+  	background-color: #e0b029;
+  	color: white;
+}
+
+.goldbox {
+  position: absolute;
+  width: 385px;
+  height: 467px;
+  left: 540px;
+  top: 120px;
+  background: #e0b029;
 }
