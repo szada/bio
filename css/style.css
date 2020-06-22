@@ -1,108 +1,789 @@
-body {
-  	background-color: white;
-  	font-family: 'Mukta', sans-serif;
-  	text-align: left;
-  	color: #585858;
-  	margin: 0;
-  	font-weight: 400;
-}
+@media (max-width: 500px) {
 
-h1 {
-    font-family: 'Mukta', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 0.2em;
+  body {
+      background-color: white;
+      font-family: 'Mukta', sans-serif;
+      text-align: left;
+      color: #585858;
+      margin: 30px;
+      font-weight: 400;
+      min-width: 350px;
+  }
+
+  h1 {
+      font-family: 'Mukta', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      color: #e0b029;
+      margin-top: 50px;
+  }
+
+  h2 {
+      font-family: 'Rozha One', sans-serif;
+      color: black;
+      font-size: 36px;
+      line-height: 90%;
+      margin-top: -5px;
+  }
+
+  p{
+      font-family: 'Mukta', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 170%;
+      color: #666;
+      margin-bottom: 20px;
+  }
+
+  h2:hover {
     color: #e0b029;
-}
+  }
 
-h2 {
-    font-family: 'Rozha One', sans-serif;
-    color: black;
-    font-size: 80px;
-    line-height: 90%;
-    margin-top: -5px;
-}
+  a:link {
+      text-decoration: none;
+    color: #e0b029;
 
-p{
-  	font-family: 'Mukta', sans-serif;
-  	font-size: 20px;
-  	font-weight: 400;
-  	line-height: 170%;
-    color: #666;
-    margin-bottom: 20px;
-}
+  }
 
-h2:hover {
-	 color: #e0b029;
-}
-
-a:link {
+  a:visited {
     text-decoration: none;
-	 color: #e0b029;
+    color: #e0b029;
+
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  hr.line1 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  hr.line2 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  main {
+    position: relative;  
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    position: left;
+  }
+
+  .left {
+    float: left;
+    width: 45%;
+  }
+
+  .right {
+    float: right;
+    width: 55%;
+    margin-top: 50px;
+  }
+
+  .bottom {
+    float: right;
+    width: 100%;
+  }
+
+  img {
+    float: right;
+    max-width: 150px;
+    padding-right: 0px;
+    }
+
+  .goldbox {
+      float: right;
+      width: 10px;
+      height: 210px;
+      background: #e0b029;
+      margin-top: 30px;
+    }
+
+  main .small {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #999;
+    margin-bottom: 60px; 
+  }
+
+/*   .topRibbon {
+      height: 10px;
+      width: 100%;
+      overflow: hidden;
+        position: fixed;
+        top: 0;
+      background-color: #e0b029;
+      color: white;
+  } */
+
 
 }
 
-a:visited {
-	 text-decoration: none;
-	 color: #e0b029;
+@media (min-width: 501px) {
+
+  body {
+      background-color: white;
+      font-family: 'Mukta', sans-serif;
+      text-align: left;
+      color: #585858;
+      margin: 30px;
+      font-weight: 400;
+      min-width: 350px;
+  }
+
+  h1 {
+      font-family: 'Mukta', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 0.2em;
+      color: #e0b029;
+      margin-top: 50px;
+  }
+
+  h2 {
+      font-family: 'Rozha One', sans-serif;
+      color: black;
+      font-size: 48px;
+      line-height: 90%;
+      margin-top: -5px;
+  }
+
+  p{
+      font-family: 'Mukta', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 170%;
+      color: #666;
+      margin-bottom: 20px;
+  }
+
+  h2:hover {
+    color: #e0b029;
+  }
+
+  a:link {
+      text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  hr.line1 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  hr.line2 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  main {
+    position: relative;  
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    position: left;
+  }
+
+  .left {
+    float: left;
+    width: 50%;
+  }
+
+  .right {
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  .bottom {
+    float: right;
+    width: 100%;
+  }
+
+  img {
+    float: right;
+    max-width: 200px;
+    padding-right: 0px;
+    }
+
+  .goldbox {
+      float: right;
+      width: 12px;
+      height: 250px;
+      background: #e0b029;
+      margin-top: 60px;
+    }
+
+  main .small {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #999;
+    margin-bottom: 60px; 
+  }
+
+/*   .topRibbon {
+      height: 10px;
+      width: 100%;
+      overflow: hidden;
+        position: fixed;
+        top: 0;
+      background-color: #e0b029;
+      color: white;
+  } */
+
 
 }
 
-a:hover {
-	 text-decoration: underline;
+@media (min-width: 640px) {
+
+  body {
+      background-color: white;
+      font-family: 'Mukta', sans-serif;
+      text-align: left;
+      color: #585858;
+      margin: 30px;
+      font-weight: 400;
+      min-width: 350px;
+  }
+
+  h1 {
+      font-family: 'Mukta', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 0.2em;
+      color: #e0b029;
+      margin-top: 50px;
+  }
+
+  h2 {
+      font-family: 'Rozha One', sans-serif;
+      color: black;
+      font-size: 60px;
+      line-height: 90%;
+      margin-top: -5px;
+  }
+
+  p{
+      font-family: 'Mukta', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 170%;
+      color: #666;
+      margin-bottom: 20px;
+  }
+
+  h2:hover {
+    color: #e0b029;
+  }
+
+  a:link {
+      text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  hr.line1 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  hr.line2 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  main {
+    position: relative;  
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    position: left;
+  }
+
+  .left {
+    float: left;
+    width: 50%;
+  }
+
+  .right {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .bottom {
+    float: right;
+    width: 100%;
+  }
+
+  img {
+    float: right;
+    max-width: 250px;
+    padding-right: 0px;
+    }
+
+  .goldbox {
+      float: right;
+      width: 20px;
+      height: 350px;
+      background: #e0b029;
+      margin-top: 60px;
+    }
+
+  main .small {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #999;
+    margin-bottom: 60px; 
+  }
+
+/*   .topRibbon {
+      height: 10px;
+      width: 100%;
+      overflow: hidden;
+        position: fixed;
+        top: 0;
+      background-color: #e0b029;
+      color: white;
+  } */
+
+
 }
 
-a:active {
-	 text-decoration: underline;
+@media (min-width: 790px) {
+
+  body {
+      background-color: white;
+      font-family: 'Mukta', sans-serif;
+      text-align: left;
+      color: #585858;
+      margin: 30px;
+      font-weight: 400;
+      min-width: 400px;
+      max-width: 900px;
+  }
+
+  h1 {
+      font-family: 'Mukta', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 18px;
+      letter-spacing: 0.2em;
+      color: #e0b029;
+      margin-top: 50px;
+  }
+
+  h2 {
+      font-family: 'Rozha One', sans-serif;
+      color: black;
+      font-size: 85px;
+      line-height: 90%;
+      margin-top: -5px;
+  }
+
+  p{
+      font-family: 'Mukta', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 170%;
+      color: #666;
+      margin-bottom: 20px;
+  }
+
+  h2:hover {
+    color: #e0b029;
+  }
+
+  a:link {
+      text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  hr.line1 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  hr.line2 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  main {
+    position: relative;  
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    position: center;
+  }
+
+  .left {
+    float: left;
+    width: 50%;
+  }
+
+  .right {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .bottom {
+    float: right;
+    width: 50%;
+  }
+
+  img {
+    float: right;
+    max-width: 350px;
+    padding-right: 0px;
+    }
+
+  .goldbox {
+      float: right;
+      width: 20px;
+      height: 500px;
+      background: #e0b029;
+      margin-top: 70px;
+    }
+
+  main .small {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #999;
+    margin-bottom: 60px; 
+  }
+
+ .topRibbon {
+      height: 10px;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #e0b029;
+      color: white;
+  } */
+
+
 }
 
-hr.solid {
-  border-top: 2px solid #f2f2f2;
-  margin-bottom: 40px;
-  margin-top: -20px;
+@media (min-width: 950px) {
+
+  body {
+      background-color: white;
+      font-family: 'Mukta', sans-serif;
+      text-align: left;
+      color: #585858;
+      margin: 30px;
+      font-weight: 400;
+      min-width: 400px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto; 
+  }
+
+  h1 {
+      font-family: 'Mukta', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 18px;
+      letter-spacing: 0.2em;
+      color: #e0b029;
+      margin-top: 50px;
+  }
+
+  h2 {
+      font-family: 'Rozha One', sans-serif;
+      color: black;
+      font-size: 85px;
+      line-height: 90%;
+      margin-top: -5px;
+  }
+
+  p{
+      font-family: 'Mukta', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 170%;
+      color: #666;
+      margin-bottom: 20px;
+  }
+
+  h2:hover {
+    color: #e0b029;
+  }
+
+  a:link {
+      text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  hr.line1 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  hr.line2 {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  main {
+    position: relative;  
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    position: center;
+  }
+
+  .left {
+    float: left;
+    width: 50%;
+    z-index: 1;
+  }
+
+  .right {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    z-index: -1;
+  }
+
+  .bottom {
+    float: right;
+    width: 50%;
+  }
+
+  img {
+    float: right;
+    max-width: 350px;
+    padding-right: 0px;
+    }
+
+  .goldbox {
+      float: right;
+      width: 20px;
+      height: 500px;
+      background: #e0b029;
+      margin-top: 70px;
+    }
+
+  main .small {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #999;
+    margin-bottom: 60px; 
+  }
+
+/*   .topRibbon {
+      height: 10px;
+      width: 100%;
+      overflow: hidden;
+        position: fixed;
+        top: 0;
+      background-color: #e0b029;
+      color: white;
+  } */
+
+
 }
 
-img{
+
+
+/* @media (min-width: 915px) {
+
+  body {
+      background-color: white;
+      font-family: 'Mukta', sans-serif;
+      text-align: left;
+      color: #585858;
+      margin: 0;
+      font-weight: 400;
+  }
+
+  h1 {
+      font-family: 'Mukta', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: 0.2em;
+      color: #e0b029;
+  }
+
+  h2 {
+      font-family: 'Rozha One', sans-serif;
+      color: black;
+      font-size: 80px;
+      line-height: 90%;
+      margin-top: -5px;
+  }
+
+  p{
+      font-family: 'Mukta', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 170%;
+      color: #666;
+      margin-bottom: 20px;
+  }
+
+  h2:hover {
+    color: #e0b029;
+  }
+
+  a:link {
+      text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #e0b029;
+
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+
+  hr.solid {
+    border-top: 2px solid #f2f2f2;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  img{
+      position: absolute;
+      width: 346px;
+      height: 635px;
+      left: 450px;
+      top: 40px;
+  }
+
+  main {
+      width: 350px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -350px;
+      margin-left: -400px;
+  }
+
+  main .small {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #999;
+    margin-bottom: 60px; 
+  }
+
+  .topRibbon {
+      height: 10px;
+      width: 100%;
+      overflow: hidden;
+        position: fixed;
+        top: 0;
+      background-color: #e0b029;
+      color: white;
+  }
+
+  .goldbox {
     position: absolute;
     width: 346px;
-    height: 635px;
-    left: 450px;
-    top: 0px;
-}
-
-.centered {
-    width: 350px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -350px;
-    margin-left: -400px;
-}
-
-.centered .small {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 200%;
-  color: #999;
-  margin-bottom: 60px; 
-}
-
-.topRibbon {
-  	height: 10px;
-  	width: 100%;
-  	overflow: hidden;
-    	position: fixed;
-    	top: 0;
-  	background-color: #e0b029;
-  	color: white;
-}
-
-.goldbox {
-  position: absolute;
-  width: 346px;
-  height: 400px;
-  left: 490px;
-  top: 120px;
-  background: #e0b029;
-}
+    height: 400px;
+    left: 490px;
+    top: 120px;
+    background: #e0b029;
+  }
+} */
