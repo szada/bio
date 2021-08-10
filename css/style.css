@@ -157,9 +157,10 @@
 
   h2 {
       font-family: 'Rozha One', sans-serif;
-      color: black;
-      font-size: 48px;
+      font-size: 36px;
+      font-weight: 100;
       line-height: 90%;
+      color: black;
       margin-top: -5px;
   }
 
@@ -291,9 +292,10 @@
 
   h2 {
       font-family: 'Rozha One', sans-serif;
-      color: black;
-      font-size: 60px;
+      font-size: 36px;
+      font-weight: 100;
       line-height: 90%;
+      color: black;
       margin-top: -5px;
   }
 
