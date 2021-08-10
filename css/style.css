@@ -24,6 +24,7 @@
       font-family: 'Rozha One', sans-serif;
       font-size: 36px;
       font-weight: 100;
+      letter-spacing: -3px;
       line-height: 90%;
       color: black;
       margin-top: -5px;
@@ -159,6 +160,7 @@
       font-family: 'Rozha One', sans-serif;
       font-size: 36px;
       font-weight: 100;
+      letter-spacing: -3px;
       line-height: 90%;
       color: black;
       margin-top: -5px;
@@ -431,6 +433,8 @@
       font-family: 'Rozha One', sans-serif;
       color: black;
       font-size: 85px;
+      font-weight: 100
+      letter-spacing: -3px;
       line-height: 90%;
       margin-top: -5px;
   }
@@ -568,6 +572,8 @@
       font-family: 'Rozha One', sans-serif;
       color: black;
       font-size: 85px;
+      font-weight: 100;
+      letter-spacing: -3px;
       line-height: 90%;
       margin-top: -5px;
   }
